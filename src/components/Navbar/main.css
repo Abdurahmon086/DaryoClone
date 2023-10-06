@@ -1,0 +1,15 @@
+.navbar__wrapper {
+    overflow: hidden;
+ }
+
+.navbar__wrapper li {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar__wrapper li:hover {
+    border-bottom: 3px solid red;
+}
+
+.navbar__wrapper li.active {
+    border-bottom: 3px solid red;
+}
