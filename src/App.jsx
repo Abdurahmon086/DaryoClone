@@ -12,13 +12,13 @@ import MenuNav from './assets/menu/MenuNav';
 import SinglePage from './pages/SinglePage';
 
 function App() {
-  const [showLoader, setShowLoader] = useState(false);
+  const [showLoader, setShowLoader] = useState(true);
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLoader(false);
-    }, 1500);
+    }, 500);
 
     return () => {
       clearTimeout(timer);
